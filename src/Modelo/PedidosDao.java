@@ -218,6 +218,7 @@ public class PedidosDao {
             Encabezado.setHorizontalAlignment(Element.ALIGN_LEFT);
             Encabezado.addCell(img);
             
+            
             Paragraph info = new Paragraph();
             Font negrita = new Font(Font.FontFamily.TIMES_ROMAN, 12, Font.BOLD, BaseColor.RED);
             info.add(Chunk.NEWLINE);
@@ -327,6 +328,7 @@ public class PedidosDao {
             firma.add("Cancelacion \n\n\n");
             firma.add("------------------------------------\n");
             firma.add("Firma \n");
+            
             firma.setAlignment(Element.ALIGN_CENTER);
             doc.add(firma);
             Paragraph gr = new Paragraph();
